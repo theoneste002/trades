@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Trades</title>
+  <link rel="stylesheet" href="Trade exchage.css">
+</head>
+<body>
+  <header>
+    <h1>World Trades Dashboard</h1>
+    <p>Explore global trading statistics and trends</p>
+  </header>
+
+  <main>
+    <section class="stats">
+      <h2>Global Trade Statistics</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Country</th>
+            <th>Exports (in Billion $)</th>
+            <th>Imports (in Billion $)</th>
+          </tr>
+        </thead>
+        <tbody id="trade-data">
+          <!-- Data will be populated dynamically -->
+        </tbody>
+      </table>
+    </section>
+
+    <section class="chart">
+      <h2>Trade Data Visualization</h2>
+      <canvas id="trade-chart"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 World Trades Dashboard. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="Trade exchange.js"></script>
+</body>
+</html>

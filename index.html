@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foreign Exchange</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#contents">Contents</a></li>
+      <li><a href="#services">Services</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <img src="https://en.m.wikipedia.org/wiki/File:Emblem_of_East_African_Community.svg" alt="">
+    <h1>Welcome to Easter Africa currencies Exchange </h1>
+    <p>Your trusted partner for all your currency exchange needs.</p>
+  </section>
+
+  <!-- Contents Section -->
+  <section id="contents">
+    <h2>Contents</h2>
+    <p>We provide valuable insights into foreign exchange markets, global trade, and currency trends. Stay updated with the latest financial news and analysis.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Services</h2>
+    <p>Convert currencies instantly using our trusted exchange rates!</p>
+    <div class="converter">
+      <div class="input-group">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" placeholder="Enter amount">
+      </div>
+      <div class="input-group">
+        <label for="from-currency">From:</label>
+        <select id="from-currency">
+          <option value="EAC">EAC</option>
+          <option value="BURUNDI">BURUNDI</option>
+          <option value="RWANDA">RWANDA</option>
+          <option value="UGANDA">UGANDA</option>
+          <option value="TANZANIA">TANZANIA</option>
+          <option value="KENYA">KENYA</option>
+          <option value="SOUTH SUDAN">SOUTH SUDAN</option>
+        <option value="DRC">DRC</option>
+          <option value="SMALIA">SMALIA</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="to-currency">To:</label>
+        <select id="to-currency">
+            <option value="EAC">EAC</option>
+            <option value="BURUNDI">BURUNDI</option>
+            <option value="RWANDA">RWANDA</option>
+            <option value="UGANDA">UGANDA</option>
+            <option value="TANZANIA">TANZANIA</option>
+            <option value="KENYA">KENYA</option>
+            <option value="SOUTH SUDAN">SOUTH SUDAN</option>
+          <option value="DRC">DRC</option>
+            <option value="SMALIA">SMALIA</option>
+        </select>
+      </div>
+      <button id="convert-btn">Convert</button>
+      <p class="result" id="result"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; from 2000-2024 Foreign Exchange. All rights reserved.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
